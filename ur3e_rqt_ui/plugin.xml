@@ -1,0 +1,13 @@
+<library path="ur3e_rqt_ui">
+  <class
+    name="UR3eUIPlugin"
+    type="ur3e_rqt_ui.plugin.UR3eUIPlugin"
+    base_class_type="rqt_gui_py::Plugin">
+    <description>UR3e Control UI Plugin</description>
+    <qtgui>
+      <label>UR3e UI</label>
+      <icon type="theme">system-run</icon>
+      <statustip>UR3e robot control interface</statustip>
+    </qtgui>
+  </class>
+</library>

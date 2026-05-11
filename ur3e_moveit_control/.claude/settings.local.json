@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ros2 topic:*)",
+      "Bash(ros2 interface:*)",
+      "Read(//home/robert/ur_ws/build/ur_client_library/**)",
+      "Read(//home/robert/ur_ws/**)",
+      "Bash(source install/setup.bash)",
+      "Bash(ros2 launch:*)",
+      "Bash(tee /tmp/ros_output.log)",
+      "Bash(source ~/ur_ws/install/setup.bash)",
+      "Bash(ros2 control:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/tonydle/moveit2_tutorials_ur_onrobot/main/ur_onrobot_hello_moveit/src/your_first_project.cpp\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/tonydle/moveit2_tutorials_ur_onrobot/main/ur_onrobot_mtc/package.xml\")",
+      "Bash(apt list *)",
+      "Read(//opt/ros/**)",
+      "Bash(dpkg -l)",
+      "Bash(sudo apt-get *)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/tonydle/UR_OnRobot_ROS2/main/ur_onrobot_control/launch/start_robot.launch.py)",
+      "Bash(curl -s https://raw.githubusercontent.com/tonydle/UR_OnRobot_ROS2/main/ur_onrobot_control/config/ur_onrobot_controllers.yaml)",
+      "Bash(curl -s https://raw.githubusercontent.com/tonydle/UR_OnRobot_ROS2/main/README.md)",
+      "Bash(colcon build *)",
+      "Bash(tail -100 /tmp/ur_driver_output.log 2>/dev/null)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
